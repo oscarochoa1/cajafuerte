@@ -1,3 +1,4 @@
+
 #include <fstream>
 #include <iostream>
 #include <string.h>
@@ -40,7 +41,14 @@ void ecuacion(float y0, float wdel, int n,  float t, float t1, float t2, float y
   while(posicion>0){
     step = rand()%3 -1;
     posicion = step;
+      i++;
     
-    cout << yn << " Las ecuaciones resueltas son: " << " primera con t=0.1 : " << yn1 << ", segunda con t=0.01 :" << yn2 << ", tercera con t=1 : " << yn3 << " el tiempo es : " << i << endl ;
+       
+      cout << " resultado de yn ="<< yn << endl;
+      cout <<" Las ecuaciones resueltas xon t = 0.1, 0.01, 1, son: " << endl ;
+      cout  << yn1 << " el tiempo es : " << i << endl ;
+      cout  << yn2  << " el tiempo es : " << i <<  endl ;
+       cout << yn3  << " el tiempo es : " << i << endl ;
+     
 }
 }
