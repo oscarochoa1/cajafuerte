@@ -1,3 +1,4 @@
+
 #include <fstream>
 #include <iostream>
 #include <string.h>
@@ -46,12 +47,13 @@ void ecuacion(float y0, float wdel, int n,  float t, float t1, float t2, float y
       i++;
 
    
-      cout << " resultado de yn ="<< yn << endl;
-      cout <<" Las ecuaciones resueltas xon t = 0.1, 0.01, 1, son: " << endl ;
-      cout  << yn1 << " el tiempo es : " << i << endl ;
-      cout  << yn2  << " el tiempo es : " << i <<  endl ;
-       cout << yn3  << " el tiempo es : " << i << endl ;
+     
+
+      cout  << yn1 << i << endl ;
+      cout  << yn2  <<  i <<  endl ;
+       cout << yn3  << i << endl ;
      
     
   }
 }
+
